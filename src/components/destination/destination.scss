@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .main {
+    width: 100vw;
+    height: 100vh;
+    background-color: #0e0c18;
+  }
+
+.background {
+    background-image: url(../../assets/destination/background-destination-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    }
+
+    .divUno  {
+    position: absolute;
+height: 34px;
+left: 14.14%;
+right: 1.57%;
+top: calc(50% - 34px/2);
+
+font-family: 'Barlow Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+/* identical to box height */
+
+letter-spacing: 4.725px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+        }
+
+        &__title{
+            color: #FFFFFF;
+        }
+    
