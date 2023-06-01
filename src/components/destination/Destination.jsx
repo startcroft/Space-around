@@ -14,10 +14,7 @@ const Destination = () => {
             
         <img src={imagenFondo}/>
         </tag>
-        <h1 className="divUno__title">
-          01 PICK YOUR DESTINATION  
-        </h1>
-        
+              
         <div> 
         </div>
      </div>
