@@ -1,17 +1,17 @@
 .memberContainer {
   width: 100%;
   display: flex;
-  margin: auto 18%;
+  margin: auto 14%;
   position: relative;
 
   .memberInfo {
-    width: 700px;
+    width: 650px;
     color: white;
-    padding-top: 200px;
+    padding-top: 180px;
 
     h3 {
       font-family: "Bellefair";
-      font-size: 40px;
+      font-size: 35px;
       text-transform: uppercase;
       color: #d0d6f9;
       font-weight: 100;
@@ -19,7 +19,7 @@
 
     h2 {
       font-family: "Bellefair";
-      font-size: 55px;
+      font-size: 50px;
       text-transform: uppercase;
       margin-top: 25px;
       font-weight: 100;
@@ -41,12 +41,12 @@
       bottom: 0px;
 
       img {
-        width: 450px;
+        width: 340px;
         position: absolute;
-        bottom: -670px;
+        bottom: -600px;
         z-index: 100;
-
-      }
+        
+      } 
     }
   }
 }

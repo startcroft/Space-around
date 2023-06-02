@@ -4,13 +4,13 @@
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 180px;
+    padding-top: 80px;
 
     .subtitle {
         position: absolute;
         display: flex;
-        left: 320px;
-        top: 300px;
+        left: 200px;
+        top: 170px;
 
         p {
             color: #d0d6f9;
@@ -29,7 +29,7 @@
 
 
     .carrouselSlide {
-        height: 680px;
+        height: 580px;
         display: flex;
         justify-content: center;
 
