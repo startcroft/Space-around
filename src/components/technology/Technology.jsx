@@ -3,8 +3,8 @@ import { NavLink, useParams } from "react-router-dom";
 import axios from "axios";
 
 
-const techURL= "https://miniback-spacearound-production.up.railway.app/tecnologies";
-const Technology = () => {
+    const techURL= "https://miniback-spacearound-production.up.railway.app/tecnologies";
+    const Technology = () => {
     const{technologyId} = useParams();
     const[tecnologies, setTechnology] = useState(null);
 
