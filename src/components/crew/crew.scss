@@ -1,0 +1,54 @@
+.crewMain {
+    background-image: url("./../../assets/background-crew-desktop.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 180px;
+
+    .subtitle {
+        position: absolute;
+        display: flex;
+        left: 320px;
+        top: 300px;
+
+        p {
+            color: #d0d6f9;
+            margin-right: 20px;
+            font-size: 28px;
+
+        }
+
+        h2 {
+            color: white;
+            font-family: "Barlow Condensed", sans-serif;
+            font-weight: 300;
+            font-size: 28px;
+        }
+    }
+
+
+    .carrouselSlide {
+        height: 680px;
+        display: flex;
+        justify-content: center;
+
+        .carrousel {
+            .card {
+                display: flex;
+                justify-content: center;
+                letter-spacing: 2px;
+            }
+        }
+
+    }
+
+    .pagination {
+        
+        width: 150px !important;
+        position: absolute;
+        margin-left: 800px;
+    }
+
+}
+
