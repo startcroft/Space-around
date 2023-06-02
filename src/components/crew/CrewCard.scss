@@ -93,6 +93,18 @@
         width: 400px;
       }
     }
+
+    div{
+
+      figure{
+
+        img{
+          width: 200px;
+          bottom: -300px;
+          z-index: 100;
+        }
+      }
+    }
   }
 }
 

@@ -7,20 +7,20 @@
     display: flex;
     padding-top: 250px;
     color: white;
-    margin-left: 10%; 
+    margin-left: 10%;
     // margin y display quita el scrol
 
 
-    .titlePrincipal{
-      
+    .titlePrincipal {
+      font-weight: 100;
     }
 
-    .imagePlanet{
-     figure{
-      img{
-        width: 300px;
+    .imagePlanet {
+      figure {
+        img {
+          width: 300px;
+        }
       }
-     }
     }
 
     .planetInfo {
@@ -28,7 +28,7 @@
       width: 700px;
       display: flex;
       flex-direction: column;
-      
+
 
       .planetMenu {
         display: flex;
@@ -46,38 +46,42 @@
         }
       }
 
-      .namePlanet{
-        font-size: 80px;
-        font-family: "Bellefair";
-        font-weight: 100;
+
+      .planetDetails {
+
+        .namePlanet {
+          font-size: 80px;
+          font-family: "Bellefair";
+          font-weight: 100;
+        }
+
+
+        .descriptionPlanet {
+          width: 400px;
+          height: 10px;
+          display: flex;
+          text-align: left;
+          font-family: 'Barlow';
+          line-height: 24px;
+        }
       }
 
-      ul{
-        
-        height: 40px;
-      }
 
-      p{
-        position: absolute;
-        height: 10px;
-        left: 72%;
-        display: flex;
-        text-align:left;
-        // top: calc(50% - 128px/2 + 28px);
-
-        font-family: 'Barlow';
-// font-style: normal;
-// font-weight: 40px;
-// font-size: 18px;
-        line-height: 24px;
-      }
-
-      .especificInformation{
+      .especificInformation {
         display: flex;
         gap: 30px;
         margin-top: 180px;
         padding-top: 30px;
         border-top: 1px solid rgba(255, 255, 255, 0.119);
+
+        .especificContent {
+          display: flex;
+          flex-direction: column !important;
+          height: 100px !important;
+
+
+
+        }
       }
     }
   }
