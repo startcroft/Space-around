@@ -1,21 +1,46 @@
-body{
+body {
+  display: flex;
+  background-image: url("./../../assets/background-destination-desktop.jpg");
+
+  main {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: url(./../../assets/);
-   main{
-     display: flex;
-     align-items: center;
-     justify-content: center;
+    padding-top: 350px;
+    color: white;
+    margin-left: 40%;
 
-     .planetInfo{
+    .planetInfo {
+      margin-left: 60px;
+      width: 700px;
 
-        .planetMenu{
-          display: flex;
-            button{
-                margin: 10px;
-            }
+      .planetMenu {
+        display: flex;
+        list-style: none;
+
+
+        button {
+          margin: 10px;
+          background: none;
+          color: white;
+          border: none;
+          font-size: 20px;
+          font-family: "Barlow Condensed", sans-serif;
         }
-     }
-   }
+      }
+
+      .namePlanet{
+        font-size: 80px;
+        font-family: "Bellefair";
+        font-weight: 100;
+      }
+
+
+      .especificInformation{
+        display: flex;
+        gap: 30px;
+        margin-top: 40px;
+        padding-top: 30px;
+        border-top: 2px solid white;
+      }
+    }
+  }
 }

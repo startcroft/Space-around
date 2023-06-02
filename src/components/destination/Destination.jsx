@@ -68,10 +68,10 @@ const Destination = () => {
                             <button onClick={handleTitan}>TITAN</button>
                         </li>
                     </ul>
-                    <h2>{destiny[position].name}</h2>
-                    <p>{destiny[position].description}</p>
+                    <h2 className="namePlanet">{destiny[position].name}</h2>
+                    <p className="descriptionPlanet">{destiny[position].description}</p>
 
-                    <div>
+                    <div className="especificInformation">
                         <div>
                            <h3>AVG. DISTANCE</h3>
                            <p>{destiny[position].distance}</p>
