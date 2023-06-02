@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./../../assets/);
+   main{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+     .planetInfo{
+
+        .planetMenu{
+          display: flex;
+            button{
+                margin: 10px;
+            }
+        }
+     }
+   }
+}

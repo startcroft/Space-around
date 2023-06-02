@@ -1,0 +1,122 @@
+.memberContainer {
+  width: 100%;
+  display: flex;
+  margin: auto 18%;
+  position: relative;
+
+  .memberInfo {
+    width: 700px;
+    color: white;
+    padding-top: 200px;
+
+    h3 {
+      font-family: "Bellefair";
+      font-size: 40px;
+      text-transform: uppercase;
+      color: #d0d6f9;
+      font-weight: 100;
+    }
+
+    h2 {
+      font-family: "Bellefair";
+      font-size: 55px;
+      text-transform: uppercase;
+      margin-top: 25px;
+      font-weight: 100;
+    }
+
+    p {
+      font-family: "Barlow";
+      font-size: 20px;
+      color: #d0d6f9;
+      margin-top: 55px;
+      width: 500px;
+    }
+  }
+
+  div {
+
+    figure {
+      position: relative;
+      bottom: 0px;
+
+      img {
+        width: 450px;
+        position: absolute;
+        bottom: -670px;
+        z-index: 100;
+
+      }
+    }
+  }
+}
+
+
+@media (max-width: 1000px) {
+
+  .memberContainer {
+    margin: auto 7%;
+
+    .memberInfo {
+      width: 480px;
+    }
+
+  }
+}
+
+@media (max-width: 500px) {
+
+  .memberContainer {
+    flex-direction: column;
+    position: relative;
+
+    .memberInfo {
+      width: 400px;
+      color: white;
+      padding-top: 80px;
+
+
+      h3 {
+        font-size: 25px;
+      }
+
+      h2 {
+        font-size: 30px;
+        margin-top: 10px;
+      }
+
+      p {
+        font-family: "Barlow";
+        font-size: 18px;
+        color: #d0d6f9;
+        margin-top: 55px;
+        width: 400px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1150px) {
+
+  .memberContainer {
+    margin: auto 7%;
+
+    .memberInfo {
+      width: 480px;
+    }
+
+  }
+}
+
+@media (max-width: 660px) {
+  .memberContainer {
+    flex-direction: column;
+    position: relative;
+
+    .memberInfo {
+      width: 400px;
+      color: white;
+      padding-top: 80px;
+  }
+}
+}
