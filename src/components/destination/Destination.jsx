@@ -47,8 +47,13 @@ const Destination = () => {
         <>
 
         <div className="destinationContent">
+        
             <main>
-
+            <div className="titlePrincipal">
+          <h1>
+            PICK YOUR DESTINATION 
+          </h1>
+        </div>
                 <div className="imagePlanet">
                     <figure>
                         <img src={destiny[position].image} alt={destiny[position].name} />
