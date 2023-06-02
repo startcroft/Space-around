@@ -1,12 +1,13 @@
-body {
+.destinationContent {
   display: flex;
   background-image: url("./../../assets/background-destination-desktop.jpg");
+  height: 100vh;
 
   main {
     display: flex;
     padding-top: 350px;
     color: white;
-    margin-left: 40%;
+    margin-left: 20%;
 
     .planetInfo {
       margin-left: 60px;

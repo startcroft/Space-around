@@ -45,6 +45,8 @@ const Destination = () => {
 
     return (
         <>
+
+        <div className="destinationContent">
             <main>
 
                 <div className="imagePlanet">
@@ -83,6 +85,8 @@ const Destination = () => {
                     </div>
                 </div>
             </main>
+
+            </div>
 
         </>
 
